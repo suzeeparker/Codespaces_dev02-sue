@@ -5,10 +5,11 @@
   "main": "index.mjs",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "cd c11*; nodemon index.mjs",
+    "start": "cd c11*; nodemon index.mjs"
   },
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "nodemon": "^2.0.22"
   }
 }
