@@ -3,10 +3,9 @@
  *  Licensed under the MIT License. See License.txt in the project root for license information.
  *--------------------------------------------------------------------------------------------*/
 
-// 'use strict';
+'use strict';
 
-// const express = require('express');
-   import express from 'express';
+const express = require('express');
 
 // Constants
 const PORT = 3000;
