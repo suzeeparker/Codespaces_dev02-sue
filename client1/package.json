@@ -1,0 +1,14 @@
+{
+  "name": "codespaces_dev01-robin",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.mjs",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "cd c11*; nodemon index.mjs",
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+  }
+}

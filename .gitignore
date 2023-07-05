@@ -1,3 +1,4 @@
 *_v[0-9]*
 .DS*
 node_modules
+package-lock.json
