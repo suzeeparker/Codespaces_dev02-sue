@@ -12,7 +12,10 @@
 	// "forwardPorts": [],
 
 	// Use 'postCreateCommand' to run commands after the container is created.
-	   "postCreateCommand": "npm install",
+	   "postCreateCommand": [ "cd client1; npm install"
+	                        , "git config user.email 'suzee.parker@gmail.com'"
+							, "git config user.name  'Sue Parker'"
+                               ]
 
 	// Configure tool-specific properties.
 	// "customizations": {},
