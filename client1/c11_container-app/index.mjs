@@ -7,6 +7,7 @@
 
 // const express = require('express');
    import express from 'express';
+   var __dirname = '/workspaces/dev02-sue/client1/c11_container-app'
 
 // Constants
 const PORT = 3000;
@@ -15,7 +16,8 @@ const HOST = '0.0.0.0';
 // App
 const app = express();
 app.get('/', (req, res) => {
-	res.send('Hello remote world!\n');
+//	res.send('Hello remote world!\n');
+   res.sendFile(`${__dirname}/index.html`)
 });
 
 app.listen(PORT, HOST);
